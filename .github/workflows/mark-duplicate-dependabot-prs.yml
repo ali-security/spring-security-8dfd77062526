@@ -1,8 +1,7 @@
 name: Mark Duplicate Dependabot PRs
 
 on:
-  pull_request:
-    types: [closed]
+  workflow_dispatch:
 
 jobs:
   check_duplicate_prs:
